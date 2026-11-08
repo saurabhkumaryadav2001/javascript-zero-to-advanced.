@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 1 JavaScript Browser Demo</title>
+</head>
+<body>
+  <h1 id="heading">JavaScript is ready</h1>
+  <button id="changeButton" type="button">Click me</button>
+
+  <script>
+    const heading = document.querySelector("#heading");
+    const button = document.querySelector("#changeButton");
+
+    button.addEventListener("click", function () {
+      heading.textContent = "You just ran JavaScript!";
+    });
+  </script>
+</body>
+</html>
