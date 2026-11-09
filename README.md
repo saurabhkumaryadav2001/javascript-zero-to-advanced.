@@ -34,13 +34,16 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 ├── README.md
 ├── lessons/
 │   ├── day-01-javascript-fundamentals.md
-│   └── ...
+│   └── day-02-conditions-control-flow.md
 ├── examples/
-│   └── day-01/
+│   ├── day-01/
+│   └── day-02/conditions.js
 ├── practice/
-│   └── day-01/
+│   ├── day-01/
+│   └── day-02/tasks.md
 ├── interview/
-│   └── day-01-questions.md
+│   ├── day-01-questions.md
+│   └── day-02-questions.md
 └── resources/
 ```
 
@@ -57,7 +60,7 @@ For browser examples, open the accompanying HTML file in a browser and read the 
 ## Progress tracker
 
 - [x] Day 1 — JavaScript fundamentals, variables, values, types, operators
-- [ ] Day 2 — Conditions and control flow
+- [x] Day 2 — Conditions and control flow
 - [ ] Day 3 — Loops and iteration
 - [ ] Day 4 — Functions: fundamentals
 - [ ] Day 5 — Function scope and hoisting
