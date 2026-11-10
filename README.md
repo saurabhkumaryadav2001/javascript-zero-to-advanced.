@@ -3,66 +3,43 @@
 A practical, interview-focused JavaScript curriculum starting from absolute zero and progressing to advanced language internals, browser APIs, asynchronous programming, performance, and machine-coding rounds.
 
 ## Learning routine
-
 - Daily lesson target: **8:00 PM (Asia/Kolkata)**.
 - Learn one subject deeply before moving on.
-- Every topic includes: what it is, why it exists, how it works, syntax, diagrams/mental models where useful, runnable examples, common mistakes, real project usage, interview questions, and exercises.
-- Keep solutions in the `practice/` folder. Try before checking explanations.
-- Run examples with Node.js or in a browser as specified.
+- Each lesson includes concepts, why/how, syntax, runnable examples, pitfalls, real frontend use, interview questions, exercises, and revision.
+- Keep solutions in `practice/`. Try before checking explanations.
 
 ## Roadmap
-
 | Phase | Topics |
 |---|---|
-| 1. Foundations | JavaScript, runtime, console, variables, data types, type conversion, operators, conditionals, loops |
-| 2. Functions | declarations, expressions, arrow functions, parameters, return, scope, hoisting, closures, recursion |
-| 3. Core mechanics | execution context, call stack, lexical environment, `this`, prototypes, prototype chain, classes |
-| 4. Data handling | strings, arrays, objects, destructuring, spread/rest, optional chaining, Map, Set, WeakMap, WeakSet |
-| 5. Functional JavaScript | callbacks, higher-order functions, map/filter/reduce, immutability, pure functions, composition |
-| 6. Asynchronous JS | event loop, tasks/microtasks, callbacks, promises, async/await, fetch, error handling, AbortController |
-| 7. Browser JavaScript | DOM, events, bubbling/capturing, delegation, forms, validation, storage, modules |
-| 8. Advanced language | iterators, generators, symbols, property descriptors, Proxy, Reflect, currying, memoization |
-| 9. Professional JS | memory management, garbage collection, performance, security, debugging, testing, design patterns |
-| 10. Machine coding | debounce, throttle, deep clone, flatten, custom map/filter/reduce, event emitter, Promise utilities, LRU cache |
-| 11. Frontend readiness | browser rendering, accessibility, API integration, state, component patterns, practical UI exercises |
-| 12. Interview preparation | output questions, conceptual questions, coding rounds, debugging, system-oriented frontend questions |
-
-## Suggested repository structure
-
-```text
-.
-├── README.md
-├── lessons/
-│   ├── day-01-javascript-fundamentals.md
-│   └── day-02-conditions-control-flow.md
-├── examples/
-│   ├── day-01/
-│   └── day-02/conditions.js
-├── practice/
-│   ├── day-01/
-│   └── day-02/tasks.md
-├── interview/
-│   ├── day-01-questions.md
-│   └── day-02-questions.md
-└── resources/
-```
-
-## How to run examples
-
-Install the current Node.js LTS release. Then run a file:
-
-```bash
-node examples/day-01/01-hello-javascript.js
-```
-
-For browser examples, open the accompanying HTML file in a browser and read the browser console.
+| 1. Foundations | Runtime, console, variables, data types, conversion, operators, conditionals, loops |
+| 2. Functions | Declarations, expressions, arrow functions, parameters, return, scope, hoisting, closures, recursion |
+| 3. Core mechanics | Execution context, call stack, lexical environment, this, prototypes, classes |
+| 4. Data handling | Strings, arrays, objects, destructuring, spread/rest, optional chaining, Map/Set/WeakMap |
+| 5. Functional JavaScript | Callbacks, higher-order functions, map/filter/reduce, immutability, composition |
+| 6. Asynchronous JS | Event loop, tasks/microtasks, promises, async/await, fetch, errors, AbortController |
+| 7. Browser JavaScript | DOM, events, delegation, forms, storage, modules |
+| 8. Advanced language | Iterators, generators, symbols, descriptors, Proxy, Reflect, currying, memoization |
+| 9. Professional JS | Memory, GC, performance, security, debugging, testing, design patterns |
+| 10. Machine coding | Debounce, throttle, deep clone, flatten, custom array methods, event emitter, Promise utilities, LRU |
+| 11. Frontend readiness | Rendering, accessibility, API integration, state, components, UI exercises |
+| 12. Interview preparation | Output, concepts, coding, debugging, frontend design |
 
 ## Progress tracker
-
 - [x] Day 1 — JavaScript fundamentals, variables, values, types, operators
 - [x] Day 2 — Conditions and control flow
-- [ ] Day 3 — Loops and iteration
+- [x] Day 3 — Loops and iteration
 - [ ] Day 4 — Functions: fundamentals
 - [ ] Day 5 — Function scope and hoisting
 
-The roadmap is intentionally broad. Lesson depth and pace take priority over rushing through the checklist.
+## Day 3 files
+- [Lesson: [Loops & Iteration](lessons/day-03-loops-iteration.md)
+- Runnable example: [loops.js](examples/day-03/loops.js)
+- Practice: [tasks.md](practice/day-03/tasks.md)
+- Interview prep: [questions & answers](interview/day-03-questions.md)
+- PDF lesson notes: download from the lesson response in ChatGPT.
+
+## Run examples
+Install Node.js LTS and run:
+```bash
+node examples/day-03/loops.js
+```
