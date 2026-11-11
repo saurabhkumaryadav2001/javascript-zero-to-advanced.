@@ -28,7 +28,7 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 - [x] Day 1 — JavaScript fundamentals, variables, values, types, operators
 - [x] Day 2 — Conditions and control flow
 - [x] Day 3 — Loops and iteration
-- [ ] Day 4 — Functions: fundamentals
+- [x] Day 4 — Functions: fundamentals
 - [ ] Day 5 — Function scope and hoisting
 
 ## Day 3 files
@@ -38,8 +38,15 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 - Interview prep: [questions & answers](interview/day-03-questions.md)
 - PDF lesson notes: download from the lesson response in ChatGPT.
 
+## Day 4 files
+- Lesson: [Functions](lessons/day-04-functions.md)
+- Runnable example: [functions.js](examples/day-04/functions.js)
+- Practice: [tasks.md](practice/day-04/tasks.md)
+- Interview prep: [questions & answers](interview/day-04-questions.md)
+- PDF lesson notes: download from the Day 4 lesson response in ChatGPT.
+
 ## Run examples
 Install Node.js LTS and run:
 ```bash
-node examples/day-03/loops.js
+node examples/day-04/functions.js
 ```
