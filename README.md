@@ -29,7 +29,7 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 - [x] Day 2 — Conditions and control flow
 - [x] Day 3 — Loops and iteration
 - [x] Day 4 — Functions: fundamentals
-- [ ] Day 5 — Function scope and hoisting
+- [x] Day 5 — Scope, hoisting, execution context and closures
 
 ## Day 3 files
 - [Lesson: [Loops & Iteration](lessons/day-03-loops-iteration.md)
@@ -50,3 +50,11 @@ Install Node.js LTS and run:
 ```bash
 node examples/day-04/functions.js
 ```
+
+
+## Day 5 files
+- Lesson: [Scope, Hoisting & Closures](lessons/day-05-scope-hoisting-closures.md)
+- Runnable example: [scope-hoisting-closures.js](examples/day-05/scope-hoisting-closures.js)
+- Practice: [tasks.md](practice/day-05/tasks.md)
+- Interview prep: [questions & answers](interview/day-05-questions.md)
+- PDF lesson notes: attached in the Day 5 ChatGPT lesson response.
