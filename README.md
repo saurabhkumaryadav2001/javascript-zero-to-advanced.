@@ -58,3 +58,13 @@ node examples/day-04/functions.js
 - Practice: [tasks.md](practice/day-05/tasks.md)
 - Interview prep: [questions & answers](interview/day-05-questions.md)
 - PDF lesson notes: attached in the Day 5 ChatGPT lesson response.
+
+
+## Day 6 — this, call, apply, bind
+
+- [Lesson](lessons/day-06-this-call-apply-bind.md)
+- [Examples](examples/day-06/this-call-apply-bind.js)
+- [Practice](practice/day-06/tasks.md)
+- [Interview Q&A](interview/day-06-questions.md)
+
+Progress: Day 6 files committed. Next: Day 7 — objects, references, copying, destructuring, optional chaining.
