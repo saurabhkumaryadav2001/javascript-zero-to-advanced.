@@ -30,6 +30,8 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 - [x] Day 3 — Loops and iteration
 - [x] Day 4 — Functions: fundamentals
 - [x] Day 5 — Scope, hoisting, execution context and closures
+- [x] Day 6 — this, call, apply, bind
+- [x] Day 7 — Objects in depth: references, copying, destructuring, optional chaining
 
 ## Day 3 files
 - [Lesson: [Loops & Iteration](lessons/day-03-loops-iteration.md)
@@ -68,3 +70,14 @@ node examples/day-04/functions.js
 - [Interview Q&A](interview/day-06-questions.md)
 
 Progress: Day 6 files committed. Next: Day 7 — objects, references, copying, destructuring, optional chaining.
+
+
+## Day 7 — Objects in Depth
+
+- [Lesson](lessons/day-07-objects-in-depth.md)
+- [Runnable examples](examples/day-07/objects-in-depth.js)
+- [Practice tasks](practice/day-07/tasks.md)
+- [Interview Q&A](interview/day-07-questions.md)
+- PDF lesson notes: attached in the Day 7 ChatGPT lesson response.
+
+Progress: Day 7 files committed. Next: Day 8 — arrays in depth.
