@@ -81,3 +81,11 @@ Progress: Day 6 files committed. Next: Day 7 — objects, references, copying, d
 - PDF lesson notes: attached in the Day 7 ChatGPT lesson response.
 
 Progress: Day 7 files committed. Next: Day 8 — arrays in depth.
+
+
+## Day 8 — Arrays in Depth
+- [Lesson](lessons/day-08-arrays-in-depth.md)
+- [Examples](examples/day-08/arrays-in-depth.js)
+- [Practice](practice/day-08/tasks.md)
+- [Interview Q&A](interview/day-08-questions.md)
+- Status: Completed (2026-11-15)
