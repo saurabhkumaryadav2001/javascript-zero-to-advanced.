@@ -1,0 +1,26 @@
+// JavaScript Day 8 — Arrays in Depth
+"use strict";
+const numbers = [1,2,3,4];
+console.log("map:", numbers.map(n=>n*2));
+console.log("filter:", numbers.filter(n=>n%2===0));
+console.log("reduce sum:", numbers.reduce((acc,n)=>acc+n,0));
+const employees=[{id:11,name:"Asha",age:22,active:true},{id:12,name:"Ravi",age:31,active:false},{id:13,name:"Neha",age:27,active:true}];
+console.log("find:",employees.find(e=>e.id===12));
+console.log("findIndex:",employees.findIndex(e=>e.id===12));
+console.log("some:",employees.some(e=>e.age>30));
+console.log("every:",employees.every(e=>e.id>0));
+console.log("numeric sort:",[10,2,1].toSorted((a,b)=>a-b));
+console.log("descending:",[10,2,1].toSorted((a,b)=>b-a));
+const original=["a","b","c","d"];
+console.log("slice:",original.slice(1,3),"original:",original);
+const changed=[...original];
+console.log("splice removed:",changed.splice(1,2,"X"),"changed:",changed);
+const words=["js","go","js","java","go","js"];
+const frequency=words.reduce((acc,w)=>{acc[w]=(acc[w]??0)+1;return acc;},{});
+console.log("frequency:",frequency);
+const tickets=[{id:101,title:"Login bug",status:"Open",priority:2},{id:102,title:"UI spacing",status:"Closed",priority:1},{id:103,title:"API timeout",status:"Open",priority:3}];
+const options=tickets.filter(t=>t.status==="Open").toSorted((a,b)=>b.priority-a.priority).map(t=>({value:t.id,label:t.title}));
+console.log("UI options:",options);
+console.log("parseInt trap:",["1","2","3"].map(parseInt));
+console.log("fixed:",["1","2","3"].map(x=>parseInt(x,10)));
+console.log("unique:",[...new Set([1,2,2,3,1])]);
