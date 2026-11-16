@@ -89,3 +89,13 @@ Progress: Day 7 files committed. Next: Day 8 — arrays in depth.
 - [Practice](practice/day-08/tasks.md)
 - [Interview Q&A](interview/day-08-questions.md)
 - Status: Completed (2026-11-15)
+
+
+## Day 9 — Functions in Depth
+- [Lesson](lessons/day-09-functions-in-depth.md)
+- [Runnable examples](examples/day-09/functions-in-depth.js)
+- [Practice tasks](practice/day-09/tasks.md)
+- [Interview Q&A](interview/day-09-questions.md)
+- PDF lesson notes: attached in the Day 9 ChatGPT lesson response.
+
+Progress: Day 9 files committed. Next: Day 10 — Promises, async/await, and the event loop.
