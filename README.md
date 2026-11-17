@@ -32,6 +32,9 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 - [x] Day 5 — Scope, hoisting, execution context and closures
 - [x] Day 6 — this, call, apply, bind
 - [x] Day 7 — Objects in depth: references, copying, destructuring, optional chaining
+- [x] Day 8 — Arrays in depth: iteration, transformations, sorting, and array utilities
+- [x] Day 9 — Functions in depth: callbacks, higher-order functions, recursion, composition
+- [x] Day 10 — Asynchronous JavaScript: event loop, tasks/microtasks, Promises, async/await, fetch
 
 ## Day 3 files
 - [Lesson: [Loops & Iteration](lessons/day-03-loops-iteration.md)
@@ -99,3 +102,13 @@ Progress: Day 7 files committed. Next: Day 8 — arrays in depth.
 - PDF lesson notes: attached in the Day 9 ChatGPT lesson response.
 
 Progress: Day 9 files committed. Next: Day 10 — Promises, async/await, and the event loop.
+
+
+## Day 10 — Asynchronous JavaScript
+- [Lesson](lessons/day-10-async-javascript.md)
+- [Runnable examples](examples/day-10/async-javascript.js)
+- [Practice tasks](practice/day-10/tasks.md)
+- [Interview Q&A](interview/day-10-questions.md)
+- PDF lesson notes: attached in the Day 10 ChatGPT lesson response.
+
+Progress: Day 10 files committed. Next: Day 11 — event loop deep dive, browser rendering, requestAnimationFrame, and scheduling patterns.
