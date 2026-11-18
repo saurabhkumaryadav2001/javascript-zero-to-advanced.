@@ -112,3 +112,12 @@ Progress: Day 9 files committed. Next: Day 10 — Promises, async/await, and the
 - PDF lesson notes: attached in the Day 10 ChatGPT lesson response.
 
 Progress: Day 10 files committed. Next: Day 11 — event loop deep dive, browser rendering, requestAnimationFrame, and scheduling patterns.
+
+## Day 11 — Event Loop Deep Dive & Browser Rendering
+- [Lesson](lessons/day-11-event-loop-browser-rendering.md)
+- [Runnable browser examples](examples/day-11/event-loop-browser-rendering.js)
+- [Practice tasks](practice/day-11/tasks.md)
+- [Interview Q&A](interview/day-11-questions.md)
+- PDF lesson notes: attached in the Day 11 ChatGPT lesson response.
+
+Progress: Day 11 files committed and verified. Next: Day 12 — DOM fundamentals, selecting elements, creating/removing nodes, and safe DOM updates.
