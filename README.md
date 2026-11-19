@@ -1,12 +1,11 @@
 # JavaScript: Zero to Advanced
 
-A practical, interview-focused JavaScript curriculum starting from absolute zero and progressing to advanced language internals, browser APIs, asynchronous programming, performance, and machine-coding rounds.
+A practical, interview-focused JavaScript curriculum progressing from absolute beginner concepts to browser APIs, advanced language internals, performance, and machine-coding rounds.
 
 ## Learning routine
-- Daily lesson target: **8:00 PM (Asia/Kolkata)**.
-- Learn one subject deeply before moving on.
+- Daily lesson target: 8:00 PM (Asia/Kolkata).
 - Each lesson includes concepts, why/how, syntax, runnable examples, pitfalls, real frontend use, interview questions, exercises, and revision.
-- Keep solutions in `practice/`. Try before checking explanations.
+- Keep solutions in practice/. Try tasks before checking explanations.
 
 ## Roadmap
 | Phase | Topics |
@@ -25,99 +24,33 @@ A practical, interview-focused JavaScript curriculum starting from absolute zero
 | 12. Interview preparation | Output, concepts, coding, debugging, frontend design |
 
 ## Progress tracker
-- [x] Day 1 — JavaScript fundamentals, variables, values, types, operators
+- [x] Day 1 — JavaScript fundamentals, values, types, operators
 - [x] Day 2 — Conditions and control flow
 - [x] Day 3 — Loops and iteration
 - [x] Day 4 — Functions: fundamentals
 - [x] Day 5 — Scope, hoisting, execution context and closures
 - [x] Day 6 — this, call, apply, bind
-- [x] Day 7 — Objects in depth: references, copying, destructuring, optional chaining
-- [x] Day 8 — Arrays in depth: iteration, transformations, sorting, and array utilities
+- [x] Day 7 — Objects in depth
+- [x] Day 8 — Arrays in depth
 - [x] Day 9 — Functions in depth: callbacks, higher-order functions, recursion, composition
-- [x] Day 10 — Asynchronous JavaScript: event loop, tasks/microtasks, Promises, async/await, fetch
+- [x] Day 10 — Asynchronous JavaScript: event loop, Promises, async/await, fetch
+- [x] Day 11 — Event loop deep dive and browser rendering
+- [x] Day 12 — DOM fundamentals and safe DOM manipulation
 
-## Day 3 files
-- [Lesson: [Loops & Iteration](lessons/day-03-loops-iteration.md)
-- Runnable example: [loops.js](examples/day-03/loops.js)
-- Practice: [tasks.md](practice/day-03/tasks.md)
-- Interview prep: [questions & answers](interview/day-03-questions.md)
-- PDF lesson notes: download from the lesson response in ChatGPT.
+## Day 12 — DOM Fundamentals
+- [Lesson](lessons/day-12-dom-fundamentals.md)
+- [Runnable HTML example](examples/day-12/dom-fundamentals.html)
+- [JavaScript example](examples/day-12/dom-fundamentals.js)
+- [Practice tasks](practice/day-12/tasks.md)
+- [Interview Q&A](interview/day-12-questions.md)
+- PDF lesson notes: attached in the Day 12 ChatGPT lesson response.
 
-## Day 4 files
-- Lesson: [Functions](lessons/day-04-functions.md)
-- Runnable example: [functions.js](examples/day-04/functions.js)
-- Practice: [tasks.md](practice/day-04/tasks.md)
-- Interview prep: [questions & answers](interview/day-04-questions.md)
-- PDF lesson notes: download from the Day 4 lesson response in ChatGPT.
+## Run the example
+Open examples/day-12/dom-fundamentals.html directly in a modern browser. The page loads dom-fundamentals.js with defer. No package installation is required.
 
-## Run examples
-Install Node.js LTS and run:
-```bash
-node examples/day-04/functions.js
-```
+## Previous lessons
+- Day 9: lessons/day-09-functions-in-depth.md
+- Day 10: lessons/day-10-async-javascript.md
+- Day 11: lessons/day-11-event-loop-browser-rendering.md
 
-
-## Day 5 files
-- Lesson: [Scope, Hoisting & Closures](lessons/day-05-scope-hoisting-closures.md)
-- Runnable example: [scope-hoisting-closures.js](examples/day-05/scope-hoisting-closures.js)
-- Practice: [tasks.md](practice/day-05/tasks.md)
-- Interview prep: [questions & answers](interview/day-05-questions.md)
-- PDF lesson notes: attached in the Day 5 ChatGPT lesson response.
-
-
-## Day 6 — this, call, apply, bind
-
-- [Lesson](lessons/day-06-this-call-apply-bind.md)
-- [Examples](examples/day-06/this-call-apply-bind.js)
-- [Practice](practice/day-06/tasks.md)
-- [Interview Q&A](interview/day-06-questions.md)
-
-Progress: Day 6 files committed. Next: Day 7 — objects, references, copying, destructuring, optional chaining.
-
-
-## Day 7 — Objects in Depth
-
-- [Lesson](lessons/day-07-objects-in-depth.md)
-- [Runnable examples](examples/day-07/objects-in-depth.js)
-- [Practice tasks](practice/day-07/tasks.md)
-- [Interview Q&A](interview/day-07-questions.md)
-- PDF lesson notes: attached in the Day 7 ChatGPT lesson response.
-
-Progress: Day 7 files committed. Next: Day 8 — arrays in depth.
-
-
-## Day 8 — Arrays in Depth
-- [Lesson](lessons/day-08-arrays-in-depth.md)
-- [Examples](examples/day-08/arrays-in-depth.js)
-- [Practice](practice/day-08/tasks.md)
-- [Interview Q&A](interview/day-08-questions.md)
-- Status: Completed (2026-11-15)
-
-
-## Day 9 — Functions in Depth
-- [Lesson](lessons/day-09-functions-in-depth.md)
-- [Runnable examples](examples/day-09/functions-in-depth.js)
-- [Practice tasks](practice/day-09/tasks.md)
-- [Interview Q&A](interview/day-09-questions.md)
-- PDF lesson notes: attached in the Day 9 ChatGPT lesson response.
-
-Progress: Day 9 files committed. Next: Day 10 — Promises, async/await, and the event loop.
-
-
-## Day 10 — Asynchronous JavaScript
-- [Lesson](lessons/day-10-async-javascript.md)
-- [Runnable examples](examples/day-10/async-javascript.js)
-- [Practice tasks](practice/day-10/tasks.md)
-- [Interview Q&A](interview/day-10-questions.md)
-- PDF lesson notes: attached in the Day 10 ChatGPT lesson response.
-
-Progress: Day 10 files committed. Next: Day 11 — event loop deep dive, browser rendering, requestAnimationFrame, and scheduling patterns.
-
-## Day 11 — Event Loop Deep Dive & Browser Rendering
-- [Lesson](lessons/day-11-event-loop-browser-rendering.md)
-- [Runnable browser examples](examples/day-11/event-loop-browser-rendering.js)
-- [Practice tasks](practice/day-11/tasks.md)
-- [Interview Q&A](interview/day-11-questions.md)
-- PDF lesson notes: attached in the Day 11 ChatGPT lesson response.
-
-Progress: Day 11 files committed and verified. Next: Day 12 — DOM fundamentals, selecting elements, creating/removing nodes, and safe DOM updates.
+Next: Day 13 — DOM events, propagation, capturing, bubbling, delegation, and default actions.
