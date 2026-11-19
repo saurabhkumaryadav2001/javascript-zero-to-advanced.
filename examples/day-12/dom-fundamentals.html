@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day 12 — DOM Fundamentals</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; color: #1f2937; }
+    body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+    form, .toolbar { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; }
+    input, button, select { padding: .55rem .75rem; font: inherit; }
+    li { display: flex; justify-content: space-between; gap: 1rem; padding: .65rem; border-bottom: 1px solid #ddd; }
+    .status { min-height: 1.5rem; }
+    .success { color: #087443; }
+    .error { color: #b42318; }
+    .muted { color: #667085; }
+  </style>
+  <script defer src="dom-fundamentals.js"></script>
+</head>
+<body>
+  <main>
+    <h1 id="page-title">Employee directory</h1>
+    <p class="muted">Day 12: safe DOM creation, selection, attributes, data sets, and event delegation.</p>
+
+    <form id="employee-form">
+      <label for="employee-name">Employee name</label>
+      <input id="employee-name" name="employeeName" autocomplete="off" required>
+      <button type="submit">Add employee</button>
+    </form>
+
+    <div class="toolbar">
+      <label for="employee-filter">Filter</label>
+      <input id="employee-filter" type="search" placeholder="Search employees">
+      <button id="show-count" type="button">Show count</button>
+    </div>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <p id="count" class="muted"></p>
+    <ul id="employee-list" aria-label="Employees"></ul>
+  </main>
+</body>
+</html>
