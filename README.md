@@ -36,6 +36,7 @@ A practical, interview-focused JavaScript curriculum progressing from absolute b
 - [x] Day 10 — Asynchronous JavaScript: event loop, Promises, async/await, fetch
 - [x] Day 11 — Event loop deep dive and browser rendering
 - [x] Day 12 — DOM fundamentals and safe DOM manipulation
+- [x] Day 13 — DOM events, propagation, capturing, bubbling and event delegation
 
 ## Day 12 — DOM Fundamentals
 - [Lesson](lessons/day-12-dom-fundamentals.md)
@@ -45,6 +46,18 @@ A practical, interview-focused JavaScript curriculum progressing from absolute b
 - [Interview Q&A](interview/day-12-questions.md)
 - PDF lesson notes: attached in the Day 12 ChatGPT lesson response.
 
+
+## Day 13 — DOM Events & Event Delegation
+- [Lesson](lessons/day-13-dom-events-event-delegation.md)
+- [Runnable HTML example](examples/day-13/event-delegation.html)
+- [JavaScript example](examples/day-13/event-delegation.js)
+- [Practice tasks](practice/day-13/tasks.md)
+- [Interview Q&A](interview/day-13-questions.md)
+- PDF lesson notes: attached in the Day 13 ChatGPT lesson response.
+
+## Run the Day 13 example
+Open examples/day-13/event-delegation.html directly in a modern browser. The page loads event-delegation.js with defer. No package installation is required.
+
 ## Run the example
 Open examples/day-12/dom-fundamentals.html directly in a modern browser. The page loads dom-fundamentals.js with defer. No package installation is required.
 
@@ -53,4 +66,4 @@ Open examples/day-12/dom-fundamentals.html directly in a modern browser. The pag
 - Day 10: lessons/day-10-async-javascript.md
 - Day 11: lessons/day-11-event-loop-browser-rendering.md
 
-Next: Day 13 — DOM events, propagation, capturing, bubbling, delegation, and default actions.
+Next: Day 14 — Browser storage and cookies: localStorage, sessionStorage, cookies, IndexedDB basics, security and persistence.
