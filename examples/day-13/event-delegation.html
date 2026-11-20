@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day 13 — DOM Events & Event Delegation</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    form, .panel { border: 1px solid #8886; border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+    label { display: block; margin: .5rem 0 .25rem; }
+    input { width: 100%; box-sizing: border-box; padding: .65rem; }
+    button { padding: .5rem .8rem; margin: .2rem; cursor: pointer; }
+    li { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .45rem 0; }
+    .muted { opacity: .75; }
+    #eventLog { min-height: 5rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .demo-outer { border: 2px solid #648acb; padding: 1rem; border-radius: 10px; }
+    .demo-middle { border: 2px solid #d69b43; padding: 1rem; border-radius: 10px; }
+  </style>
+  <script src="./event-delegation.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Day 13: DOM Events & Event Delegation</h1>
+    <p class="muted">Add, filter and remove employees. The list uses one delegated click listener.</p>
+  </header>
+
+  <section class="panel" aria-labelledby="addTitle">
+    <h2 id="addTitle">Add employee</h2>
+    <form id="employeeForm">
+      <label for="employeeName">Employee name</label>
+      <input id="employeeName" name="employeeName" required maxlength="80" autocomplete="off">
+      <button type="submit">Add employee</button>
+      <p id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <section class="panel" aria-labelledby="listTitle">
+    <h2 id="listTitle">Employee directory</h2>
+    <label for="filterInput">Filter employees</label>
+    <input id="filterInput" type="search" placeholder="Type a name…">
+    <ul id="employeeList">
+      <li data-id="1"><span class="employee-name">Asha Sharma</span><button type="button" data-action="remove" aria-label="Remove Asha Sharma">Remove</button></li>
+      <li data-id="2"><span class="employee-name">Ravi Kumar</span><button type="button" data-action="remove" aria-label="Remove Ravi Kumar">Remove</button></li>
+      <li data-id="3"><span class="employee-name">Meera Patel</span><button type="button" data-action="remove" aria-label="Remove Meera Patel">Remove</button></li>
+    </ul>
+    <p id="emptyState" hidden>No matching employees.</p>
+    <p id="count" class="muted"></p>
+  </section>
+
+  <section class="panel" aria-labelledby="propTitle">
+    <h2 id="propTitle">Propagation demo</h2>
+    <p>Click the innermost button. Watch capture, target and bubble listeners.</p>
+    <div id="outer" class="demo-outer">
+      Outer
+      <div id="middle" class="demo-middle">
+        Middle
+        <button id="inner" type="button"><span>Click inner button</span></button>
+      </div>
+    </div>
+    <button id="clearLog" type="button">Clear event log</button>
+    <pre id="eventLog" aria-live="polite"></pre>
+  </section>
+
+  <footer><p class="muted">Open DevTools Console to inspect event.target and event.currentTarget.</p></footer>
+</body>
+</html>
