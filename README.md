@@ -67,3 +67,15 @@ Open examples/day-12/dom-fundamentals.html directly in a modern browser. The pag
 - Day 11: lessons/day-11-event-loop-browser-rendering.md
 
 Next: Day 14 — Browser storage and cookies: localStorage, sessionStorage, cookies, IndexedDB basics, security and persistence.
+
+
+## Day 14 — Browser Storage & Cookies
+- [Lesson](lessons/day-14-browser-storage-cookies.md)
+- [Runnable HTML lab](examples/day-14/browser-storage.html)
+- [JavaScript implementation](examples/day-14/browser-storage.js)
+- [Practice tasks](practice/day-14/tasks.md)
+- [Interview Q&A](interview/day-14-questions.md)
+- PDF lesson notes: attached in the Day 14 ChatGPT lesson response.
+
+## Run the Day 14 example
+Serve the examples/day-14 folder over localhost (for example, run python -m http.server 8000 from that folder) and open http://localhost:8000/browser-storage.html. A local HTTP origin is recommended because browser storage behavior for file:// URLs is not standardized.
